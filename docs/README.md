@@ -106,14 +106,15 @@ npm run preview
 2. **Header** — Logo, navegação sticky com links âncora, botão CTA
 3. **Hero Banner** — Slider com imagens e mensagem inspiradora
 4. **Sobre Nós** — Apresentação da instituição com imagem e texto
-5. **Missão / Visão / Valores** — Cards com ícones
-6. **Ofertas Educativas** — Creche, Jardim, Salas de Estudo, Férias, Workshops
-7. **Nosso Dia a Dia** — Galeria de fotos com overlay
-8. **Instagram Feed** — Grid de publicações
-9. **Comentários / Reviews** — Google Reviews carousel
-10. **Calendário** — Google Calendar embed
-11. **Contacto** — Formulário + Mapa + Informações
-12. **Footer** — Logo, links, redes sociais, copyright
+5. **O Nosso Espaço** — Instalações com fotos da área exterior e salas
+6. **Missão / Visão / Valores** — Cards com ícones
+7. **Ofertas Educativas** — Creche, Jardim, Salas de Estudo, Férias, Workshops
+8. **Nosso Dia a Dia** — Galeria de fotos com overlay
+9. **CTA / Parallax** — Call-to-action para agendar visita com fundo fixo
+10. **Instagram Feed** — Grid de publicações
+11. **Comentários / Reviews** — Google Reviews carousel
+12. **Contacto** — Formulário + Mapa + Informações
+13. **Footer** — Logo, links, redes sociais, copyright
 
 ## 📞 Contactos Originais
 
