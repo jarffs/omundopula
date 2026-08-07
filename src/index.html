@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Mundo Pula — Educação com Afeto e Liberdade</title>
+  <meta name="description" content="O Mundo Pula é uma instituição educativa em Portugal com Creche, Jardim de Infância e Salas de Estudo. Abordagens Montessori, Reggio Emilia e Movimento Escola Moderna.">
+  <meta name="keywords" content="creche, jardim de infância, educação infantil, Montessori, Reggio Emilia, Portugal, O Mundo Pula">
+  <meta name="author" content="O Mundo Pula">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="O Mundo Pula — Educação com Afeto e Liberdade">
+  <meta property="og:description" content="Espaço educativo com mais de 1.000m², focado no desenvolvimento integral da criança através de pedagogias ativas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://omundopula.pt/">
+  <meta property="og:image" content="/assets/images/logo_horizontal-removebg-preview.png">
+  <meta property="og:locale" content="pt_PT">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/cropped-logo-e1682803301512-32x32.png">
+  <link rel="apple-touch-icon" href="/assets/icons/cropped-logo-e1682803301512-180x180.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Main JS (Vite handles CSS imports from here) -->
+  <script type="module" src="/js/main.js"></script>
+</head>
+
+<body>
+  <!-- Skip to content (Accessibility) -->
+  <a href="#inicio" class="skip-link">Saltar para o conteúdo</a>
+
+  <!-- Preloader -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__spinner"></div>
+  </div>
+
+  <!-- ============================================================
+       TOPBAR
+       ============================================================ -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar__left">
+        <div class="social-links">
+          <a href="https://www.facebook.com/omundopula" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/omundopula/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <span class="topbar__info">
+          <i class="fas fa-clock"></i>
+          Seg a Sex: 7:30 – 19:00
+        </span>
+      </div>
+      <div class="topbar__right">
+        <span class="topbar__info">
+          <i class="fas fa-map-marker-alt"></i>
+          <a href="https://maps.google.com/?cid=9787685434107918728" target="_blank" rel="noopener">
+            Vila Nova de Gaia, Portugal
+          </a>
+        </span>
+        <span class="topbar__info">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:geral@omundopula.pt">geral@omundopula.pt</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       HEADER / NAVIGATION
+       ============================================================ -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#inicio" class="header__logo" aria-label="O Mundo Pula - Página inicial">
+        <img src="/assets/images/logo-e1682803301512.png" alt="O Mundo Pula" width="150" height="72">
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link is-active">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre Nós</a></li>
+          <li><a href="#valores" class="nav__link">Missão</a></li>
+          <li><a href="#ofertas" class="nav__link">Ofertas</a></li>
+          <li><a href="#galeria" class="nav__link">Dia a Dia</a></li>
+          <li><a href="#comentarios" class="nav__link">Comentários</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#contacto" class="btn btn--primary btn--sm">
+          <i class="fas fa-calendar-check"></i>
+          Agendar Visita
+        </a>
+        <button class="mobile-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="mobile-toggle__bar"></span>
+          <span class="mobile-toggle__bar"></span>
+          <span class="mobile-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu__panel">
+      <button class="mobile-menu__close" aria-label="Fechar menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="mobile-menu__logo">
+        <img src="/assets/images/logo-e1682803301512.png" alt="O Mundo Pula" width="120" height="58">
+      </div>
+      <ul class="mobile-menu__list">
+        <li><a href="#inicio" class="mobile-menu__link">Início</a></li>
+        <li><a href="#sobre" class="mobile-menu__link">Sobre Nós</a></li>
+        <li><a href="#valores" class="mobile-menu__link">Missão</a></li>
+        <li><a href="#ofertas" class="mobile-menu__link">Ofertas Educativas</a></li>
+        <li><a href="#galeria" class="mobile-menu__link">Nosso Dia a Dia</a></li>
+        <li><a href="#comentarios" class="mobile-menu__link">Comentários</a></li>
+        <li><a href="#contacto" class="mobile-menu__link">Contacto</a></li>
+      </ul>
+      <div class="mobile-menu__contact">
+        <div class="mobile-menu__contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:geral@omundopula.pt">geral@omundopula.pt</a>
+        </div>
+        <div class="mobile-menu__contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          Vila Nova de Gaia, Portugal
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/omundopula" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/omundopula/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <section id="inicio" class="hero section">
+      <!-- Slider Backgrounds -->
+      <div class="hero__slider">
+        <div class="hero__slide is-active">
+          <div class="hero__slide-bg" style="background-image: url('/assets/images/foto_1.jpg');"></div>
+        </div>
+        <div class="hero__slide">
+          <div class="hero__slide-bg" style="background-image: url('/assets/images/foto_2.jpg');"></div>
+        </div>
+        <div class="hero__slide">
+          <div class="hero__slide-bg" style="background-image: url('/assets/images/foto_3.jpg');"></div>
+        </div>
+      </div>
+
+      <!-- Overlay -->
+      <div class="hero__overlay"></div>
+
+      <!-- Decorative Shapes -->
+      <div class="hero__shape hero__shape--1"></div>
+      <div class="hero__shape hero__shape--2"></div>
+      <div class="hero__shape hero__shape--3"></div>
+
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <i class="fas fa-star"></i>
+            5.0 Avaliação no Google
+          </div>
+          <h1 class="hero__title">
+            Educação para <span>autonomia</span> e liberdade
+          </h1>
+          <p class="hero__description">
+            Espaço com mais de 1.000m², muita área verde e uma equipa acolhedora para o desenvolvimento pleno da criança, com afeto, cuidado e respeito.
+          </p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--accent btn--lg">
+              <i class="fas fa-calendar-check"></i>
+              Agendar Visita
+            </a>
+            <a href="#sobre" class="btn btn--white btn--lg">
+              Conhecer Mais
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Dots -->
+      <div class="hero__dots">
+        <button class="hero__dot is-active" aria-label="Slide 1"></button>
+        <button class="hero__dot" aria-label="Slide 2"></button>
+        <button class="hero__dot" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Wave Divider -->
+      <div class="wave-divider">
+        <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+          <path d="M0,60 L0,30 Q300,0 600,30 Q900,60 1200,30 L1200,60 Z" fill="#f8f9fa"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SOBRE NÓS
+         ============================================================ -->
+    <section id="sobre" class="section about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__image-wrapper" data-animate="fade-right">
+            <img src="/assets/images/foto_12_1.png" alt="Crianças a brincar no espaço exterior do O Mundo Pula" class="about__image" width="500" height="500" loading="lazy">
+          </div>
+          <div class="about__content" data-animate="fade-left">
+            <span class="section__subtitle">Sobre Nós</span>
+            <h2 class="section__title">Um Espaço Pensado para a Criança</h2>
+            <p class="about__highlight">
+              Educação para autonomia e liberdade da criança ser quem é, com afeto, cuidado e respeito.
+            </p>
+            <p class="about__text">
+              Espaço com mais de 1.000 metros quadrados, muita área verde, salas espaçosas e ventiladas para oferecer conforto e meios adequados para aprendizagem e o desenvolvimento pleno das crianças.
+            </p>
+            <p class="about__text">
+              Uma equipa acolhedora, respeitosa e altamente preparada para atender as necessidades de cada faixa etária.
+            </p>
+            <a href="#contacto" class="btn btn--primary" style="margin-top: var(--space-lg);">
+              <i class="fas fa-phone"></i>
+              Fale Connosco
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         MISSÃO / VISÃO / VALORES
+         ============================================================ -->
+    <section id="valores" class="section values">
+      <!-- Wave Divider Top -->
+      <div class="wave-divider wave-divider--top">
+        <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+          <path d="M0,60 L0,30 Q300,0 600,30 Q900,60 1200,30 L1200,60 Z" fill="#f8f9fa"/>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="section__header" data-animate>
+          <span class="section__subtitle">O Que Nos Move</span>
+          <h2 class="section__title">Missão, Visão e Valores</h2>
+          <p class="section__description">
+            Os pilares que orientam o nosso trabalho diário na construção de um futuro melhor para cada criança.
+          </p>
+        </div>
+
+        <div class="values__grid">
+          <!-- Missão -->
+          <div class="card" data-animate data-animate-delay="100">
+            <div class="card__icon">
+              <i class="fas fa-bullseye"></i>
+            </div>
+            <h3 class="card__title">Missão</h3>
+            <p class="card__text">
+              Proporcionar um espaço de aprendizagem e acolhimento para crianças e famílias, onde há valorização integral dos seres humanos com respeito às diferenças. Vamos além dos nossos muros, incentivamos o livre brincar e convivemos na natureza.
+            </p>
+          </div>
+
+          <!-- Visão -->
+          <div class="card" data-animate data-animate-delay="200">
+            <div class="card__icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3 class="card__title">Visão</h3>
+            <p class="card__text">
+              Ser uma instituição referência em ensino em Portugal, pela qualidade dos profissionais, pela relação afetiva com alunos, pela confiança das famílias e pelo projeto educativo sólido, humanista e inovador.
+            </p>
+          </div>
+
+          <!-- Valores -->
+          <div class="card" data-animate data-animate-delay="300">
+            <div class="card__icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3 class="card__title">Valores</h3>
+            <p class="card__text">
+              Afetividade, aprendizagem significativa, cultura de inovação, ambiente multicultural, desenvolvimento integral, autonomia da criança, inclusão, responsabilidade social e cooperação.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         OFERTAS EDUCATIVAS
+         ============================================================ -->
+    <section id="ofertas" class="section services">
+      <div class="container">
+        <div class="section__header" data-animate>
+          <span class="section__subtitle">O Que Oferecemos</span>
+          <h2 class="section__title">Ofertas Educativas</h2>
+          <p class="section__description">
+            Programas adaptados a cada faixa etária, com metodologias pedagógicas ativas e inovadoras.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <!-- Creche -->
+          <div class="service-card service-card--teal" data-animate data-animate-delay="100">
+            <div class="service-card__icon">
+              <i class="fas fa-baby"></i>
+            </div>
+            <h3 class="service-card__title">Creche</h3>
+            <p class="service-card__text">
+              Sala heterogénea para crianças de 1 a 2 anos. Abordagens Montessori, Reggio Emilia e Movimento Escola Moderna.
+            </p>
+            <a href="/docs/BOAS-VINDAS-CRECHE_2025_2026.pdf" target="_blank" class="service-card__link">
+              Mais informações <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Jardim de Infância -->
+          <div class="service-card service-card--blue" data-animate data-animate-delay="200">
+            <div class="service-card__icon">
+              <i class="fas fa-child"></i>
+            </div>
+            <h3 class="service-card__title">Jardim de Infância</h3>
+            <p class="service-card__text">
+              Crianças de 3 a 6 anos com opção de Sala Montessori, Sala Movimento Escola Moderna e Sala Reggio Emilia, com foco no livre brincar.
+            </p>
+            <a href="/docs/BOAS-VINDAS-PRE_2025_2026.pdf" target="_blank" class="service-card__link">
+              Mais informações <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Salas de Estudo -->
+          <div class="service-card service-card--orange" data-animate data-animate-delay="300">
+            <div class="service-card__icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h3 class="service-card__title">Salas de Estudo</h3>
+            <p class="service-card__text">
+              Quatro salas com professores para acompanhamento de alunos do 1º, 2º e 3º ciclos. Aulas dinâmicas e momentos ao ar livre.
+            </p>
+          </div>
+
+          <!-- Workshops -->
+          <div class="service-card service-card--green" data-animate data-animate-delay="400">
+            <div class="service-card__icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3 class="service-card__title">Workshops e Eventos</h3>
+            <p class="service-card__text">
+              Espaço aberto à comunidade com eventos sobre infância, educação e parentalidade.
+            </p>
+          </div>
+
+          <!-- Férias -->
+          <div class="service-card service-card--purple" data-animate data-animate-delay="500">
+            <div class="service-card__icon">
+              <i class="fas fa-sun"></i>
+            </div>
+            <h3 class="service-card__title">Férias e Recessos</h3>
+            <p class="service-card__text">
+              Programa variado para todas as idades nos períodos de pausa letiva: Páscoa, Natal e meses de Verão.
+            </p>
+            <a href="https://docs.google.com/forms/d/1HVVNohAceRP2fQyGabk1qVN5fk07sTIuGUr8V_yQoDU/viewform" target="_blank" class="service-card__link">
+              Inscrever-se <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         NOSSO DIA A DIA (Gallery)
+         ============================================================ -->
+    <section id="galeria" class="section gallery">
+      <div class="container">
+        <div class="section__header" data-animate>
+          <span class="section__subtitle">O Nosso Dia a Dia</span>
+          <h2 class="section__title">Momentos que Inspiram</h2>
+          <p class="section__description">
+            Cada dia é uma aventura de aprendizagem, brincadeira e descoberta.
+          </p>
+        </div>
+
+        <div class="gallery__grid">
+          <div class="image-card" data-animate data-animate-delay="100">
+            <img src="/assets/images/foto_1.jpg" alt="Criança a brincar na chuva" class="image-card__img" loading="lazy">
+            <div class="image-card__overlay">
+              <h4 class="image-card__title">Chuva?</h4>
+              <p class="image-card__text">Cozinhamos com lama</p>
+            </div>
+          </div>
+
+          <div class="image-card" data-animate data-animate-delay="200">
+            <img src="/assets/images/foto_2.jpg" alt="Crianças a brincar com liberdade" class="image-card__img" loading="lazy">
+            <div class="image-card__overlay">
+              <h4 class="image-card__title">Brincar</h4>
+              <p class="image-card__text">Com liberdade</p>
+            </div>
+          </div>
+
+          <div class="image-card" data-animate data-animate-delay="300">
+            <img src="/assets/images/foto_3.jpg" alt="Contacto com a natureza" class="image-card__img" loading="lazy">
+            <div class="image-card__overlay">
+              <h4 class="image-card__title">Natureza</h4>
+              <p class="image-card__text">Contacto diário com o meio ambiente</p>
+            </div>
+          </div>
+
+          <div class="image-card" data-animate data-animate-delay="400">
+            <img src="/assets/images/foto_5.jpg" alt="Saídas pedagógicas" class="image-card__img" loading="lazy">
+            <div class="image-card__overlay">
+              <h4 class="image-card__title">Aventuras</h4>
+              <p class="image-card__text">Saídas pedagógicas frequentes</p>
+            </div>
+          </div>
+
+          <div class="image-card" data-animate data-animate-delay="500">
+            <img src="/assets/images/foto_12_1.png" alt="Cidadania e comunidade" class="image-card__img" loading="lazy">
+            <div class="image-card__overlay">
+              <h4 class="image-card__title">Comunidade</h4>
+              <p class="image-card__text">A escola fora dos seus portões</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA / PARALLAX
+         ============================================================ -->
+    <section class="cta" style="background-image: url('/assets/images/foto_3.jpg');">
+      <div class="cta__overlay"></div>
+      <div class="container">
+        <div class="cta__content" data-animate="scale-in">
+          <h2 class="cta__title">Venha Conhecer o Nosso Espaço</h2>
+          <p class="cta__text">
+            Agende uma visita e descubra como proporcionamos um ambiente seguro, estimulante e cheio de carinho para o seu filho.
+          </p>
+          <a href="#contacto" class="btn btn--accent btn--lg">
+            <i class="fas fa-calendar-check"></i>
+            Agendar Visita
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         INSTAGRAM
+         ============================================================ -->
+    <section id="instagram" class="section instagram">
+      <div class="container">
+        <div class="section__header" data-animate>
+          <span class="section__subtitle">Siga-nos</span>
+          <h2 class="section__title">Instagram</h2>
+          <p class="section__description">
+            Acompanhe as nossas atividades e novidades no Instagram.
+          </p>
+        </div>
+
+        <div class="instagram__profile" data-animate>
+          <a href="https://www.instagram.com/omundopula/" target="_blank" rel="noopener">
+            <img src="/assets/images/452615141_1867050850474850_3818297208510997530_n.png" alt="Perfil Instagram O Mundo Pula" width="60" height="60" loading="lazy">
+          </a>
+          <div>
+            <a href="https://www.instagram.com/omundopula/" target="_blank" rel="noopener" class="btn btn--secondary btn--sm">
+              <i class="fab fa-instagram"></i>
+              @omundopula
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         COMENTÁRIOS / REVIEWS
+         ============================================================ -->
+    <section id="comentarios" class="section reviews">
+      <div class="container">
+        <div class="section__header" data-animate>
+          <span class="section__subtitle">Testemunhos</span>
+          <h2 class="section__title">O Que Dizem as Famílias</h2>
+        </div>
+
+        <div class="reviews__header" data-animate>
+          <div class="reviews__google">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_42x16dp.png" alt="Google" height="20" loading="lazy">
+            <div class="reviews__google-info">
+              <div>
+                <span class="reviews__rating">5.0</span>
+                <span class="review-card__stars" style="display: inline-flex; margin-left: 8px;">
+                  <i class="fas fa-star review-card__star"></i>
+                  <i class="fas fa-star review-card__star"></i>
+                  <i class="fas fa-star review-card__star"></i>
+                  <i class="fas fa-star review-card__star"></i>
+                  <i class="fas fa-star review-card__star"></i>
+                </span>
+              </div>
+              <span class="reviews__count">Baseado em 9 avaliações</span>
+            </div>
+          </div>
+          <div class="reviews__nav">
+            <button class="reviews__nav-btn reviews__nav-btn--prev" aria-label="Anterior">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="reviews__nav-btn reviews__nav-btn--next" aria-label="Seguinte">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="reviews__slider">
+          <div class="reviews__track">
+            <!-- Page 1 -->
+            <div class="reviews__slide">
+              <div class="reviews__cards">
+                <div class="review-card" data-animate data-animate-delay="100">
+                  <span class="review-card__quote">"</span>
+                  <div class="review-card__stars">
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                  </div>
+                  <p class="review-card__text">
+                    Excelente instituição! Em todos os sentidos, cuidadores, educadores, afetivos... Planificam as férias ao gosto das crianças! Agradeço imenso a toda a equipa 🙂
+                  </p>
+                  <div class="review-card__author">
+                    <div>
+                      <div class="review-card__name">Helena Fernandes</div>
+                      <div class="review-card__date">Agosto 2022</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review-card" data-animate data-animate-delay="200">
+                  <span class="review-card__quote">"</span>
+                  <div class="review-card__stars">
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                  </div>
+                  <p class="review-card__text">
+                    Equipa fantástica, muito atenciosa e carinhosa. O meu filho adora ir para lá. Recomendo vivamente a todas as famílias que procuram um espaço educativo de qualidade.
+                  </p>
+                  <div class="review-card__author">
+                    <div>
+                      <div class="review-card__name">Ludgero Mota</div>
+                      <div class="review-card__date">Julho 2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Page 2 -->
+            <div class="reviews__slide">
+              <div class="reviews__cards">
+                <div class="review-card">
+                  <span class="review-card__quote">"</span>
+                  <div class="review-card__stars">
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                  </div>
+                  <p class="review-card__text">
+                    Um espaço maravilhoso onde as crianças são verdadeiramente respeitadas. A abordagem pedagógica é excelente e a equipa transmite muita confiança.
+                  </p>
+                  <div class="review-card__author">
+                    <div>
+                      <div class="review-card__name">Ana Silva</div>
+                      <div class="review-card__date">Março 2023</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review-card">
+                  <span class="review-card__quote">"</span>
+                  <div class="review-card__stars">
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                    <i class="fas fa-star review-card__star"></i>
+                  </div>
+                  <p class="review-card__text">
+                    Desde o primeiro dia sentimos que fizemos a escolha certa. A dedicação e o profissionalismo da equipa são incomparáveis. Altamente recomendado!
+                  </p>
+                  <div class="review-card__author">
+                    <div>
+                      <div class="review-card__name">Ricardo Pereira</div>
+                      <div class="review-card__date">Janeiro 2023</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-2xl);" data-animate>
+          <a href="https://search.google.com/local/writereview?placeid=ChIJkVGnglNmJA0RiHlEgQvY1Ic" target="_blank" rel="noopener" class="btn btn--secondary">
+            <i class="fab fa-google"></i>
+            Escrever uma Avaliação
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACTO
+         ============================================================ -->
+    <section id="contacto" class="section contact">
+      <div class="container">
+        <div class="section__header" data-animate>
+          <span class="section__subtitle">Fale Connosco</span>
+          <h2 class="section__title">Contacte-nos</h2>
+          <p class="section__description">
+            Tem alguma questão? Estamos aqui para ajudar. Envie-nos uma mensagem ou visite-nos.
+          </p>
+        </div>
+
+        <div class="contact__grid">
+          <!-- Contact Form -->
+          <div data-animate="fade-right">
+            <form id="contact-form" novalidate>
+              <div class="contact__form-group">
+                <label class="contact__label" for="name">Nome Completo *</label>
+                <input type="text" id="name" name="name" class="contact__input" placeholder="O seu nome" required>
+              </div>
+              <div class="contact__form-group">
+                <label class="contact__label" for="email">Email *</label>
+                <input type="email" id="email" name="email" class="contact__input" placeholder="email@exemplo.com" required>
+              </div>
+              <div class="contact__form-group">
+                <label class="contact__label" for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" class="contact__input" placeholder="+351 900 000 000">
+              </div>
+              <div class="contact__form-group">
+                <label class="contact__label" for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" class="contact__input" placeholder="Ex: Informações sobre Creche">
+              </div>
+              <div class="contact__form-group">
+                <label class="contact__label" for="message">Mensagem *</label>
+                <textarea id="message" name="message" class="contact__textarea" placeholder="A sua mensagem..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--lg">
+                <i class="fas fa-paper-plane"></i>
+                Enviar Mensagem
+              </button>
+              <div class="form-message" role="alert"></div>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div data-animate="fade-left">
+            <div class="contact__info">
+              <div class="contact__info-item">
+                <div class="contact__info-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h4 class="contact__info-title">Morada</h4>
+                  <p class="contact__info-text">Vila Nova de Gaia, Portugal</p>
+                </div>
+              </div>
+
+              <div class="contact__info-item">
+                <div class="contact__info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h4 class="contact__info-title">Email</h4>
+                  <p class="contact__info-text">
+                    <a href="mailto:geral@omundopula.pt">geral@omundopula.pt</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact__info-item">
+                <div class="contact__info-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div>
+                  <h4 class="contact__info-title">Horário</h4>
+                  <p class="contact__info-text">Segunda a Sexta: 7:30 – 19:00</p>
+                </div>
+              </div>
+
+              <div class="contact__info-item">
+                <div class="contact__info-icon">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <div>
+                  <h4 class="contact__info-title">Redes Sociais</h4>
+                  <div class="social-links" style="margin-top: var(--space-xs);">
+                    <a href="https://www.facebook.com/omundopula" class="social-link" style="background: rgba(var(--color-primary-rgb), 0.1); color: var(--color-primary);" aria-label="Facebook" target="_blank" rel="noopener">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/omundopula/" class="social-link" style="background: rgba(var(--color-primary-rgb), 0.1); color: var(--color-primary);" aria-label="Instagram" target="_blank" rel="noopener">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps -->
+        <div class="contact__map" data-animate>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.5!2d-8.6!3d41.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x87d4d80b814479888!2sO%20Mundo%20Pula!5e0!3m2!1spt-PT!2spt!4v1"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização do O Mundo Pula no Google Maps"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <!-- Wave Divider -->
+    <div class="wave-divider wave-divider--top">
+      <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,60 L0,30 Q300,0 600,30 Q900,60 1200,30 L1200,60 Z" fill="#f8f9fa"/>
+      </svg>
+    </div>
+
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__grid">
+          <!-- About Column -->
+          <div>
+            <div class="footer__logo">
+              <img src="/assets/images/logo-e1682803301512.png" alt="O Mundo Pula" width="150" height="72" loading="lazy">
+            </div>
+            <p class="footer__about">
+              Educação para autonomia e liberdade da criança ser quem é, com afeto, cuidado e respeito. Um espaço onde cada criança é valorizada e acompanhada no seu desenvolvimento integral.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/omundopula" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/omundopula/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4 class="footer__title">Links Rápidos</h4>
+            <ul class="footer__links">
+              <li><a href="#inicio" class="footer__link">Início</a></li>
+              <li><a href="#sobre" class="footer__link">Sobre Nós</a></li>
+              <li><a href="#valores" class="footer__link">Missão</a></li>
+              <li><a href="#ofertas" class="footer__link">Ofertas</a></li>
+              <li><a href="#galeria" class="footer__link">Dia a Dia</a></li>
+              <li><a href="#contacto" class="footer__link">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Services Links -->
+          <div>
+            <h4 class="footer__title">Ofertas</h4>
+            <ul class="footer__links">
+              <li><a href="#ofertas" class="footer__link">Creche</a></li>
+              <li><a href="#ofertas" class="footer__link">Jardim de Infância</a></li>
+              <li><a href="#ofertas" class="footer__link">Salas de Estudo</a></li>
+              <li><a href="#ofertas" class="footer__link">Workshops</a></li>
+              <li><a href="#ofertas" class="footer__link">Férias</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div>
+            <h4 class="footer__title">Contactos</h4>
+            <div class="footer__contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Vila Nova de Gaia, Portugal</span>
+            </div>
+            <div class="footer__contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:geral@omundopula.pt">geral@omundopula.pt</a>
+            </div>
+            <div class="footer__contact-item">
+              <i class="fas fa-clock"></i>
+              <span>Seg a Sex: 7:30 – 19:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <div class="container">
+        <p class="footer__copyright">
+          © <span id="current-year">2025</span> O Mundo Pula. Todos os direitos reservados.
+        </p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/omundopula" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/omundopula/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-to-top" aria-label="Voltar ao topo">
+    <svg class="back-to-top__progress" viewBox="-1 -1 102 102">
+      <circle cx="50" cy="50" r="46"/>
+    </svg>
+    <i class="fas fa-arrow-up"></i>
+  </a>
+</body>
+
+</html>
+
