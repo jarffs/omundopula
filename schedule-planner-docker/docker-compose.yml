@@ -1,0 +1,12 @@
+﻿version: '3'
+services:
+  planner:
+    image: node:20-alpine
+    container_name: omundopula_planner
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    command: sh -c "npm install && node server.js"
+    restart: always
