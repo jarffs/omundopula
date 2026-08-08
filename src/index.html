@@ -99,7 +99,7 @@
       </nav>
 
       <div class="header__actions">
-        <a href="#contacto" class="btn btn--primary btn--sm">
+        <a href="#contacto" class="btn hover-bounce btn--primary btn--sm">
           <i class="fas fa-calendar-check"></i>
           Agendar Visita
         </a>
@@ -174,9 +174,9 @@
       <div class="hero__overlay"></div>
 
       <!-- Decorative Shapes -->
-      <div class="hero__shape hero__shape--1"></div>
-      <div class="hero__shape hero__shape--2"></div>
-      <div class="hero__shape hero__shape--3"></div>
+      <div class="hero__shape hero__shape--1 animate-blob" style="opacity: 0.6;"></div>
+      <div class="hero__shape hero__shape--2 animate-float" style="opacity: 0.4;"></div>
+      <div class="hero__shape hero__shape--3 animate-pulse" style="opacity: 0.5;"></div>
 
       <div class="container">
         <div class="hero__content">
@@ -191,11 +191,11 @@
             Espaço com mais de 1.000m², muita área verde e uma equipa acolhedora para o desenvolvimento pleno da criança, com afeto, cuidado e respeito.
           </p>
           <div class="hero__actions">
-            <a href="#contacto" class="btn btn--accent btn--lg">
+            <a href="#contacto" class="btn hover-bounce btn--accent btn--lg">
               <i class="fas fa-calendar-check"></i>
               Agendar Visita
             </a>
-            <a href="#sobre" class="btn btn--white btn--lg">
+            <a href="#sobre" class="btn hover-bounce btn--white btn--lg">
               Conhecer Mais
             </a>
           </div>
@@ -221,6 +221,9 @@
          SOBRE NÓS
          ============================================================ -->
     <section id="sobre" class="section about">
+      <div class="about__shape animate-blob" style="position: absolute; top: -50px; left: -50px; width: 200px; height: 200px; background: rgba(var(--color-secondary-rgb), 0.1); border-radius: 50%; z-index: -1;"></div>
+      <div class="about__shape animate-float" style="position: absolute; bottom: 50px; right: 5%; width: 100px; height: 100px; background: rgba(var(--color-primary-rgb), 0.1); border-radius: 50%; z-index: -1;"></div>
+      
       <div class="container">
         <div class="about__grid">
           <div class="about__image-wrapper" data-animate="fade-right">
@@ -238,7 +241,7 @@
             <p class="about__text">
               Uma equipa acolhedora, respeitosa e altamente preparada para atender as necessidades de cada faixa etária.
             </p>
-            <a href="#contacto" class="btn btn--primary" style="margin-top: var(--space-lg);">
+            <a href="#contacto" class="btn hover-bounce btn--primary" style="margin-top: var(--space-lg);">
               <i class="fas fa-phone"></i>
               Fale Connosco
             </a>
@@ -332,7 +335,7 @@
 
         <div class="values__grid">
           <!-- Missão -->
-          <div class="card" data-animate data-animate-delay="100">
+          <div class="card hover-lift" data-animate data-animate-delay="100">
             <div class="card__icon">
               <i class="fas fa-bullseye"></i>
             </div>
@@ -343,7 +346,7 @@
           </div>
 
           <!-- Visão -->
-          <div class="card" data-animate data-animate-delay="200">
+          <div class="card hover-lift" data-animate data-animate-delay="200">
             <div class="card__icon">
               <i class="fas fa-eye"></i>
             </div>
@@ -354,7 +357,7 @@
           </div>
 
           <!-- Valores -->
-          <div class="card" data-animate data-animate-delay="300">
+          <div class="card hover-lift" data-animate data-animate-delay="300">
             <div class="card__icon">
               <i class="fas fa-heart"></i>
             </div>
@@ -382,7 +385,7 @@
 
         <div class="services__grid">
           <!-- Creche -->
-          <div class="service-card service-card--teal" data-animate data-animate-delay="100">
+          <div class="service-card hover-lift service-card--teal" data-animate data-animate-delay="100">
             <div class="service-card__icon">
               <i class="fas fa-baby"></i>
             </div>
@@ -396,7 +399,7 @@
           </div>
 
           <!-- Jardim de Infância -->
-          <div class="service-card service-card--blue" data-animate data-animate-delay="200">
+          <div class="service-card hover-lift service-card--blue" data-animate data-animate-delay="200">
             <div class="service-card__icon">
               <i class="fas fa-child"></i>
             </div>
@@ -410,7 +413,7 @@
           </div>
 
           <!-- Salas de Estudo -->
-          <div class="service-card service-card--orange" data-animate data-animate-delay="300">
+          <div class="service-card hover-lift service-card--orange" data-animate data-animate-delay="300">
             <div class="service-card__icon">
               <i class="fas fa-book-open"></i>
             </div>
@@ -421,7 +424,7 @@
           </div>
 
           <!-- Workshops -->
-          <div class="service-card service-card--green" data-animate data-animate-delay="400">
+          <div class="service-card hover-lift service-card--green" data-animate data-animate-delay="400">
             <div class="service-card__icon">
               <i class="fas fa-palette"></i>
             </div>
@@ -432,7 +435,7 @@
           </div>
 
           <!-- Férias -->
-          <div class="service-card service-card--purple" data-animate data-animate-delay="500">
+          <div class="service-card hover-lift service-card--purple" data-animate data-animate-delay="500">
             <div class="service-card__icon">
               <i class="fas fa-sun"></i>
             </div>
@@ -516,7 +519,7 @@
           <p class="cta__text">
             Agende uma visita e descubra como proporcionamos um ambiente seguro, estimulante e cheio de carinho para o seu filho.
           </p>
-          <a href="#contacto" class="btn btn--accent btn--lg">
+          <a href="#contacto" class="btn hover-bounce btn--accent btn--lg">
             <i class="fas fa-calendar-check"></i>
             Agendar Visita
           </a>
@@ -542,7 +545,7 @@
             <img src="/assets/images/452615141_1867050850474850_3818297208510997530_n.png" alt="Perfil Instagram O Mundo Pula" width="60" height="60" loading="lazy">
           </a>
           <div>
-            <a href="https://www.instagram.com/omundopula/" target="_blank" rel="noopener" class="btn btn--secondary btn--sm">
+            <a href="https://www.instagram.com/omundopula/" target="_blank" rel="noopener" class="btn hover-bounce btn--secondary btn--sm">
               <i class="fab fa-instagram"></i>
               @omundopula
             </a>
@@ -683,7 +686,7 @@
         </div>
 
         <div style="text-align: center; margin-top: var(--space-2xl);" data-animate>
-          <a href="https://search.google.com/local/writereview?placeid=ChIJkVGnglNmJA0RiHlEgQvY1Ic" target="_blank" rel="noopener" class="btn btn--secondary">
+          <a href="https://search.google.com/local/writereview?placeid=ChIJkVGnglNmJA0RiHlEgQvY1Ic" target="_blank" rel="noopener" class="btn hover-bounce btn--secondary">
             <i class="fab fa-google"></i>
             Escrever uma Avaliação
           </a>
@@ -728,7 +731,7 @@
                 <label class="contact__label" for="message">Mensagem *</label>
                 <textarea id="message" name="message" class="contact__textarea" placeholder="A sua mensagem..." required></textarea>
               </div>
-              <button type="submit" class="btn btn--primary btn--lg">
+              <button type="submit" class="btn hover-bounce btn--primary btn--lg">
                 <i class="fas fa-paper-plane"></i>
                 Enviar Mensagem
               </button>
